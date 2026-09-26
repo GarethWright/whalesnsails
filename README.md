@@ -42,3 +42,9 @@ npm run deploy
 ```
 
 `wrangler.jsonc` defines the account, static build directory, and custom domain. The deployment uploads the game and runtime art; editable Rive sources and review images stay in the repository. A GitHub push does not automatically deploy; run `npm run deploy` after changes.
+
+## iPhone and iPad
+
+Open the live URL in Safari, choose a whale, and tap **Let’s make waves**. The game opens a screen-filling touch layout, without requiring the Fullscreen API or an app install. Drag the swim stick to move diagonally; use a second finger to tap or hold Jump, Ram, Tail whack, or Bubbles. Portrait and landscape are supported, including safe-area spacing. **Whale crew** pauses and returns to character selection. The game pauses when the page loses focus or is hidden. Dexter’s credit appears inside the game and in the footer.
+
+Only the selected whale’s animation sheets are loaded to reduce mobile memory use. `node scripts/mobile-test.mjs` checks phone/tablet layouts in Playwright WebKit and simultaneous browser-generated touches in Chromium; `node scripts/mobile-playthrough.mjs` completes the three stages using held touch controls. These are browser-emulation checks, not testing on physical Apple devices.
