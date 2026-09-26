@@ -1,0 +1,1105 @@
+{
+  "artboard": {
+    "name": "minke",
+    "width": 320,
+    "height": 200
+  },
+  "groups": [
+    {
+      "id": "body",
+      "x": 160,
+      "y": 105
+    },
+    {
+      "id": "tail",
+      "parent": "body",
+      "x": -76,
+      "y": 6
+    },
+    {
+      "id": "flipper",
+      "parent": "body",
+      "x": 4,
+      "y": 18
+    },
+    {
+      "id": "eye",
+      "parent": "body",
+      "x": 91,
+      "y": -6
+    }
+  ],
+  "shapes": [
+    {
+      "id": "minkep0",
+      "type": "polygon",
+      "x": -30,
+      "y": -5,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": 37,
+              "y": 3,
+              "cubic": {
+                "rotation": 175.91438322002514,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 28.0713376952364
+              }
+            },
+            {
+              "x": -28,
+              "y": -31,
+              "cubic": {
+                "rotation": 105.94539590092285,
+                "inRotation": 6.1155035662854065,
+                "inDistance": 28.160255680657446,
+                "outDistance": 14.560219778561038
+              }
+            },
+            {
+              "x": -6,
+              "y": 6,
+              "cubic": {
+                "rotation": -177.6140559696112,
+                "inRotation": -150.25511870305778,
+                "inDistance": 21.4993539954628,
+                "outDistance": 16.013882865952418
+              }
+            },
+            {
+              "x": -37,
+              "y": 31,
+              "cubic": {
+                "rotation": 18.43494882292199,
+                "inRotation": -74.9315118405078,
+                "inDistance": 17.95054935711501,
+                "outDistance": 21.08185106778919
+              }
+            },
+            {
+              "x": 14,
+              "y": 18,
+              "cubic": {
+                "rotation": -16.927513064147,
+                "inRotation": 132.39743779750017,
+                "inDistance": 20.76321533652992,
+                "outDistance": 8.013876853447542
+              }
+            },
+            {
+              "x": 37,
+              "y": 11,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 163.07248693585302,
+                "inDistance": 8.013876853447542,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "gradient": {
+          "type": "linear",
+          "stops": [
+            {
+              "color": "#a2dadc",
+              "position": 0
+            },
+            {
+              "color": "#158185",
+              "position": 1
+            }
+          ],
+          "start": {
+            "x": -37,
+            "y": -31
+          },
+          "end": {
+            "x": -37,
+            "y": 31
+          }
+        }
+      },
+      "parent": "tail"
+    },
+    {
+      "id": "minkep1",
+      "type": "polygon",
+      "x": 39.5,
+      "y": 19.5,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -18.5,
+              "y": -13.5,
+              "cubic": {
+                "rotation": 52.76516601842534,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 20.933757957476764
+              }
+            },
+            {
+              "x": 18.5,
+              "y": 13.5,
+              "cubic": {
+                "rotation": -53.13010235415603,
+                "inRotation": -173.65980825409005,
+                "inDistance": 12.073846850849892,
+                "outDistance": 6.666666666666674
+              }
+            },
+            {
+              "x": 7.5,
+              "y": -13.5,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 48.17983011986423,
+                "inDistance": 16.996731711975958,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "color": "#158185"
+      },
+      "parent": "body"
+    },
+    {
+      "id": "minkep2",
+      "type": "polygon",
+      "x": -9,
+      "y": -38.5,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -19,
+              "y": 18.5,
+              "cubic": {
+                "rotation": -79.04593735660166,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 21.050204538462584
+              }
+            },
+            {
+              "x": 2,
+              "y": -18.5,
+              "cubic": {
+                "rotation": 92.48955292199913,
+                "inRotation": 158.19859051364818,
+                "inDistance": 10.77032961426901,
+                "outDistance": 15.347819244295112
+              }
+            },
+            {
+              "x": 19,
+              "y": 11.5,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": -158.74949449286675,
+                "inDistance": 12.875471943885312,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "gradient": {
+          "type": "linear",
+          "stops": [
+            {
+              "color": "#a2dadc",
+              "position": 0
+            },
+            {
+              "color": "#158185",
+              "position": 1
+            }
+          ],
+          "start": {
+            "x": -19,
+            "y": -18.5
+          },
+          "end": {
+            "x": -19,
+            "y": 18.5
+          }
+        }
+      },
+      "parent": "body"
+    },
+    {
+      "id": "minkep3",
+      "type": "polygon",
+      "x": 16,
+      "y": -3,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -101,
+              "y": 2,
+              "cubic": {
+                "rotation": -26.56505117707799,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 43.23064756499593
+              }
+            },
+            {
+              "x": 13,
+              "y": -32,
+              "cubic": {
+                "rotation": -2.8624052261117385,
+                "inRotation": 174.89783474764184,
+                "inDistance": 37.481847458321575,
+                "outDistance": 26.699979192667705
+              }
+            },
+            {
+              "x": 101,
+              "y": -7,
+              "cubic": {
+                "rotation": 32.471192290848585,
+                "inRotation": -150.64224645720873,
+                "inDistance": 36.71511950137164,
+                "outDistance": 8.692269873603518
+              }
+            },
+            {
+              "x": 97,
+              "y": 8,
+              "cubic": {
+                "rotation": 153.81188930251912,
+                "inRotation": -28.072486935852936,
+                "inDistance": 11.33333333333333,
+                "outDistance": 45.3186250649529
+              }
+            },
+            {
+              "x": -11,
+              "y": 32,
+              "cubic": {
+                "rotation": -171.41637851988602,
+                "inRotation": 7.275004957889254,
+                "inDistance": 31.5876206412857,
+                "outDistance": 35.733582088686376
+              }
+            },
+            {
+              "x": -101,
+              "y": 13,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 16.557071375636646,
+                "inDistance": 25.733678754158365,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "gradient": {
+          "type": "linear",
+          "stops": [
+            {
+              "color": "#a2dadc",
+              "position": 0
+            },
+            {
+              "color": "#158185",
+              "position": 1
+            }
+          ],
+          "start": {
+            "x": -101,
+            "y": -32
+          },
+          "end": {
+            "x": -101,
+            "y": 32
+          }
+        }
+      },
+      "parent": "body"
+    },
+    {
+      "id": "minkep4",
+      "type": "polygon",
+      "x": 23,
+      "y": 14,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -94,
+              "y": -6,
+              "cubic": {
+                "rotation": 19.61209370890407,
+                "inRotation": 18.43494882292201,
+                "inDistance": 25.298221281347036,
+                "outDistance": 61.57199940810036
+              }
+            },
+            {
+              "x": 94,
+              "y": -11,
+              "cubic": {
+                "rotation": 155.6954507340633,
+                "inRotation": 160.38212059188172,
+                "inDistance": 71.482709642107,
+                "outDistance": 45.35293693785317
+              }
+            },
+            {
+              "x": -9,
+              "y": 11,
+              "cubic": {
+                "rotation": -174.17365797044422,
+                "inRotation": 8.325650330426834,
+                "inDistance": 27.62446580680089,
+                "outDistance": 32.83629428273266
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "color": "#a2dadc"
+      },
+      "parent": "body"
+    },
+    {
+      "id": "minkep5",
+      "type": "polygon",
+      "x": 13.5,
+      "y": -21,
+      "subpaths": [
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": -55.5,
+              "y": 11,
+              "cubic": {
+                "rotation": -28.81079374297307,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 45.65084884205331
+              }
+            },
+            {
+              "x": 55.5,
+              "y": -11,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": -167.82854179141253,
+                "inDistance": 34.781859895321546,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.6,
+      "stroke": {
+        "color": "#a2dadc",
+        "thickness": 4,
+        "cap": "round"
+      },
+      "parent": "body"
+    },
+    {
+      "id": "minkep6",
+      "type": "polygon",
+      "x": -3.5,
+      "y": 8,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": 17.5,
+              "y": -12,
+              "cubic": {
+                "rotation": 115.64100582430531,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 18.487232831816055
+              }
+            },
+            {
+              "x": -17.5,
+              "y": 16,
+              "cubic": {
+                "rotation": -72.64597536373861,
+                "inRotation": -7.4314079711725025,
+                "inDistance": 15.46321800632428,
+                "outDistance": 11.175369742826799
+              }
+            },
+            {
+              "x": -7.5,
+              "y": -16,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 107.35402463626139,
+                "inDistance": 11.175369742826815,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "gradient": {
+          "type": "linear",
+          "stops": [
+            {
+              "color": "#a2dadc",
+              "position": 0
+            },
+            {
+              "color": "#158185",
+              "position": 1
+            }
+          ],
+          "start": {
+            "x": -17.5,
+            "y": -16
+          },
+          "end": {
+            "x": 17.5,
+            "y": 16
+          }
+        }
+      },
+      "parent": "flipper"
+    },
+    {
+      "id": "minkep7",
+      "type": "polygon",
+      "x": -2,
+      "y": 8,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -4,
+              "y": -7,
+              "cubic": {
+                "rotation": 11.309932474020213,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 5.099019513592785
+              }
+            },
+            {
+              "x": 11,
+              "y": -4,
+              "cubic": {
+                "rotation": 122.47119229084868,
+                "inRotation": -168.6900675259798,
+                "inDistance": 5.099019513592785,
+                "outDistance": 4.3461349368017625
+              }
+            },
+            {
+              "x": 4,
+              "y": 7,
+              "cubic": {
+                "rotation": -172.4053566314087,
+                "inRotation": -57.52880770915134,
+                "inDistance": 4.3461349368017625,
+                "outDistance": 5.044248650140517
+              }
+            },
+            {
+              "x": -11,
+              "y": 5,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 7.594643368591338,
+                "inDistance": 5.044248650140517,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "color": "#ffffff"
+      },
+      "parent": "flipper"
+    },
+    {
+      "id": "minkep8",
+      "type": "polygon",
+      "x": 0,
+      "y": 0,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -10,
+              "y": 0,
+              "cubic": {
+                "rotation": 90,
+                "inRotation": -90,
+                "inDistance": 6.075132248138729,
+                "outDistance": 6.075132248138729
+              }
+            },
+            {
+              "x": 0,
+              "y": 11,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 180,
+                "inDistance": 5.522847498307925,
+                "outDistance": 5.522847498307954
+              }
+            },
+            {
+              "x": 10,
+              "y": 0,
+              "cubic": {
+                "rotation": -90,
+                "inRotation": 90,
+                "inDistance": 6.075132248138729,
+                "outDistance": 6.075132248138729
+              }
+            },
+            {
+              "x": 0,
+              "y": -11,
+              "cubic": {
+                "rotation": 180,
+                "inRotation": 0,
+                "inDistance": 5.522847498307954,
+                "outDistance": 5.522847498307925
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "color": "#ffffff"
+      },
+      "parent": "eye"
+    },
+    {
+      "id": "minkep9",
+      "type": "polygon",
+      "x": 3,
+      "y": 0,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -5,
+              "y": 0,
+              "cubic": {
+                "rotation": 90,
+                "inRotation": -90,
+                "inDistance": 3.5898508739001613,
+                "outDistance": 3.5898508739001613
+              }
+            },
+            {
+              "x": 0,
+              "y": 6.5,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 180,
+                "inDistance": 2.761423749153977,
+                "outDistance": 2.7614237491539484
+              }
+            },
+            {
+              "x": 5,
+              "y": 0,
+              "cubic": {
+                "rotation": -90,
+                "inRotation": 90,
+                "inDistance": 3.5898508739001613,
+                "outDistance": 3.5898508739001613
+              }
+            },
+            {
+              "x": 0,
+              "y": -6.5,
+              "cubic": {
+                "rotation": 180,
+                "inRotation": 0,
+                "inDistance": 2.7614237491539484,
+                "outDistance": 2.761423749153977
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "color": "#192424"
+      },
+      "parent": "eye"
+    },
+    {
+      "id": "minkep10",
+      "type": "polygon",
+      "x": 4,
+      "y": -3,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -2,
+              "y": 0,
+              "cubic": {
+                "rotation": 90,
+                "inRotation": -90,
+                "inDistance": 1.1045694996615936,
+                "outDistance": 1.1045694996615936
+              }
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 180,
+                "inDistance": 1.1045694996615794,
+                "outDistance": 1.1045694996615794
+              }
+            },
+            {
+              "x": 2,
+              "y": 0,
+              "cubic": {
+                "rotation": -90,
+                "inRotation": 90,
+                "inDistance": 1.1045694996615936,
+                "outDistance": 1.1045694996615936
+              }
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "cubic": {
+                "rotation": 180,
+                "inRotation": 0,
+                "inDistance": 1.1045694996615794,
+                "outDistance": 1.1045694996615794
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "color": "#ffffff"
+      },
+      "parent": "eye"
+    },
+    {
+      "id": "minkep11",
+      "type": "polygon",
+      "x": 104.5,
+      "y": 10.5,
+      "subpaths": [
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": -10.5,
+              "y": 2.5,
+              "cubic": {
+                "rotation": 28.300755766006358,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 9.843215373488954
+              }
+            },
+            {
+              "x": 10.5,
+              "y": -2.5,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 123.69006752597971,
+                "inDistance": 9.614803401237294,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "stroke": {
+        "color": "#192424",
+        "thickness": 2.5,
+        "cap": "round"
+      },
+      "parent": "body"
+    }
+  ],
+  "animations": [
+    {
+      "name": "swim",
+      "duration": 144,
+      "fps": 60,
+      "loop": "loop",
+      "presets": [
+        {
+          "preset": "float-idle",
+          "target": "body",
+          "intensity": 0.25
+        }
+      ],
+      "tracks": [
+        {
+          "target": "tail",
+          "property": "rotation",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 0,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 36,
+              "value": -17,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 72,
+              "value": 0,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 108,
+              "value": 17,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 144,
+              "value": 0,
+              "easing": "ease-in-out"
+            }
+          ]
+        },
+        {
+          "target": "flipper",
+          "property": "rotation",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 8,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 36,
+              "value": -9,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 72,
+              "value": 8,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 108,
+              "value": 20,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 144,
+              "value": 8,
+              "easing": "ease-in-out"
+            }
+          ]
+        },
+        {
+          "target": "eye",
+          "property": "scaleY",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 109,
+              "value": 1,
+              "easing": "hold"
+            },
+            {
+              "frame": 114,
+              "value": 0.08,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 120,
+              "value": 1,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 144,
+              "value": 1,
+              "easing": "hold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tail",
+      "duration": 36,
+      "fps": 60,
+      "loop": "oneshot",
+      "tracks": [
+        {
+          "target": "tail",
+          "property": "rotation",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 0,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 9,
+              "value": 25,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 18,
+              "value": -48,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 27,
+              "value": 13,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 36,
+              "value": 0,
+              "easing": "ease-in-out"
+            }
+          ]
+        },
+        {
+          "target": "body",
+          "property": "rotation",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 0,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 9,
+              "value": -7,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 18,
+              "value": 9,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 27,
+              "value": -3,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 36,
+              "value": 0,
+              "easing": "ease-in-out"
+            }
+          ]
+        },
+        {
+          "target": "flipper",
+          "property": "rotation",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 8,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 9,
+              "value": 22,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 18,
+              "value": -20,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 27,
+              "value": 13,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 36,
+              "value": 8,
+              "easing": "ease-in-out"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ram",
+      "duration": 36,
+      "fps": 60,
+      "loop": "oneshot",
+      "tracks": [
+        {
+          "target": "tail",
+          "property": "rotation",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 0,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 9,
+              "value": 22,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 18,
+              "value": -28,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 27,
+              "value": 12,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 36,
+              "value": 0,
+              "easing": "ease-in-out"
+            }
+          ]
+        },
+        {
+          "target": "flipper",
+          "property": "rotation",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 8,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 9,
+              "value": -24,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 18,
+              "value": -30,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 27,
+              "value": 4,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 36,
+              "value": 8,
+              "easing": "ease-in-out"
+            }
+          ]
+        },
+        {
+          "target": "body",
+          "property": "scaleX",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 1,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 9,
+              "value": 0.93,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 18,
+              "value": 1.08,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 27,
+              "value": 1.03,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 36,
+              "value": 1,
+              "easing": "ease-in-out"
+            }
+          ]
+        },
+        {
+          "target": "body",
+          "property": "scaleY",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 1,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 9,
+              "value": 1.07,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 18,
+              "value": 0.93,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 27,
+              "value": 0.98,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 36,
+              "value": 1,
+              "easing": "ease-in-out"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

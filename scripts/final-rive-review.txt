@@ -1,0 +1,58 @@
+Sampled "swim" at t=[0, 0.48, 0.96, 1.44, 1.92, 2.4]s (cells 240x150). Image 1 = filmstrip (time flows left→right), image 2 = onion skin (motion trails).
+MOTION REPORT: no transform motion found.
+METRICS {
+ "vector": {
+  "bezierPaths": 12,
+  "cubicVertices": 44,
+  "straightVertices": 0,
+  "primitives": 0,
+  "pathRatio": 1
+ },
+ "color": {
+  "distinctFills": 3,
+  "palette": [
+   "#192424",
+   "#566767",
+   "#ffffff"
+  ],
+  "gradientFills": 4,
+  "solidFills": 8,
+  "oversaturated": [],
+  "pureBlackOrWhite": [
+   "#ffffff"
+  ]
+ },
+ "motion": {
+  "keyframes": 60,
+  "animations": 3,
+  "easingDistribution": {
+   "hold": 2,
+   "linear": 13,
+   "cubic": 45
+  },
+  "elasticInterpolators": 0
+ },
+ "structure": {
+  "bones": 0,
+  "constraints": 0,
+  "stateMachines": 0,
+  "listeners": 0,
+  "nestedArtboards": 0
+ },
+ "lint": [
+  {
+   "severity": "info",
+   "rule": "motion-lopsided-scale",
+   "message": "animation \"swim\": object#4 は scaleY のみアニメしています。等倍ポップなら scaleX/scaleY 両方、スカッシュ&ストレッチなら逆位相で両方動かすのが定石です"
+  }
+ ]
+}
+
+Score each axis 1-5 by LOOKING at the attached images (3=acceptable, 4=professional). The FILMSTRIP reads left→right in time; the ONION SKIN overlays all frames so trajectories appear as ghost trails. If any axis < 4, fix and re-run riv_critique. Iterate at least twice before delivering.
+1. Silhouette & composition — clear focal point, balanced negative space, aligned elements
+2. Color — harmonious palette (see metrics.color: oversaturated/pureBlackOrWhite should be empty; prefer gradients on hero shapes)
+3. Depth & polish — gradients/overlap/scale variation create depth; no flat "placeholder" look
+4. Motion physicality — eased arrivals/departures (metrics.motion.easingDistribution.linear should be small for transforms), overshoot/spring where playful
+5. Timing — staggered entrances, varied durations, nothing teleports (check lint motion-* findings)
+6. Shape quality — organic forms use bezier paths (metrics.vector.pathRatio near 1 for illustrations; primitives only for genuinely geometric UI)
+7. Spatial & directional coherence — the scene's viewpoint must be ONE consistent perspective: artwork drawn isometric/three-quarter must not sit on a flat side-view ground (and vice versa). Every mover's travel direction (see MOTION REPORT vectors + onion-skin trails) must match the direction the artwork visually faces — a vehicle/character/rocket must move toward its own front, never sideways or backwards. Shadows and ground contact must agree with the same viewpoint.

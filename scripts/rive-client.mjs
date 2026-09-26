@@ -1,0 +1,10 @@
+import {Client} from '@modelcontextprotocol/sdk/client/index.js';
+import {StdioClientTransport} from '@modelcontextprotocol/sdk/client/stdio.js';
+import fs from 'node:fs';
+const client=new Client({name:'whale-game-builder',version:'1.0.0'});
+await client.connect(new StdioClientTransport({command:'node',args:['node_modules/rive-mcp-server/dist/index.js']}));
+const [name,arg]=process.argv.slice(2);
+const result=name==='list'?await client.listTools():await client.callTool({name,arguments:JSON.parse(arg||'{}')});
+for(const c of result.content||[]) if(c.type==='text') console.log(c.text);
+if(name==='list') fs.writeFileSync('scripts/rive-tools.json',JSON.stringify(result,null,2));
+await client.close();

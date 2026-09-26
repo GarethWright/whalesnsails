@@ -1,0 +1,4 @@
+import {chromium} from 'playwright';
+const browser=await chromium.launch({channel:'chrome',headless:true});const page=await browser.newPage();await page.goto('http://127.0.0.1:5173');await page.waitForTimeout(700);await page.clock.install();await page.click('[data-whale="blue"]');await page.click('#start');await page.keyboard.down('ArrowUp');let visited=new Set();let last;
+for(let i=0;i<950;i++){let s=await page.evaluate(()=>gameSnapshot());visited.add(s.stage);last=s;if(s.mode==='won')break;const target=s.ships[0];await page.keyboard.up('ArrowLeft');await page.keyboard.up('ArrowRight');if(target){const delta=target.x-s.player.x;if(Math.abs(delta)>35)await page.keyboard.down(delta>0?'ArrowRight':'ArrowLeft')}await page.keyboard.press('KeyL');await page.clock.runFor(550)}
+await page.screenshot({path:'tests/victory.png'});await browser.close();console.log(JSON.stringify({visited:[...visited],last}));if(last.mode!=='won')throw new Error('Did not reach victory');

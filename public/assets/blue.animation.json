@@ -1,0 +1,1969 @@
+{
+  "artboard": {
+    "name": "blue",
+    "width": 320,
+    "height": 200
+  },
+  "groups": [
+    {
+      "id": "body",
+      "x": 160,
+      "y": 105
+    },
+    {
+      "id": "tail",
+      "parent": "body",
+      "x": -76,
+      "y": 6
+    },
+    {
+      "id": "flipper",
+      "parent": "body",
+      "x": 4,
+      "y": 18
+    },
+    {
+      "id": "eye",
+      "parent": "body",
+      "x": 106,
+      "y": -17
+    }
+  ],
+  "shapes": [
+    {
+      "id": "bluep0",
+      "type": "polygon",
+      "x": -30,
+      "y": -5,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": 37,
+              "y": 3,
+              "cubic": {
+                "rotation": 175.91438322002514,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 28.0713376952364
+              }
+            },
+            {
+              "x": -28,
+              "y": -31,
+              "cubic": {
+                "rotation": 105.94539590092285,
+                "inRotation": 6.1155035662854065,
+                "inDistance": 28.160255680657446,
+                "outDistance": 14.560219778561038
+              }
+            },
+            {
+              "x": -6,
+              "y": 6,
+              "cubic": {
+                "rotation": -177.6140559696112,
+                "inRotation": -150.25511870305778,
+                "inDistance": 21.4993539954628,
+                "outDistance": 16.013882865952418
+              }
+            },
+            {
+              "x": -37,
+              "y": 31,
+              "cubic": {
+                "rotation": 18.43494882292199,
+                "inRotation": -74.9315118405078,
+                "inDistance": 17.95054935711501,
+                "outDistance": 21.08185106778919
+              }
+            },
+            {
+              "x": 14,
+              "y": 18,
+              "cubic": {
+                "rotation": -16.927513064147,
+                "inRotation": 132.39743779750017,
+                "inDistance": 20.76321533652992,
+                "outDistance": 8.013876853447542
+              }
+            },
+            {
+              "x": 37,
+              "y": 11,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 163.07248693585302,
+                "inDistance": 8.013876853447542,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "gradient": {
+          "type": "linear",
+          "stops": [
+            {
+              "color": "#1f8fa1",
+              "position": 0
+            },
+            {
+              "color": "#056058",
+              "position": 1
+            }
+          ],
+          "start": {
+            "x": -37,
+            "y": -31
+          },
+          "end": {
+            "x": -37,
+            "y": 31
+          }
+        }
+      },
+      "parent": "tail"
+    },
+    {
+      "id": "bluep1",
+      "type": "polygon",
+      "x": 39.5,
+      "y": 19.5,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -18.5,
+              "y": -13.5,
+              "cubic": {
+                "rotation": 52.76516601842534,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 20.933757957476764
+              }
+            },
+            {
+              "x": 18.5,
+              "y": 13.5,
+              "cubic": {
+                "rotation": -53.13010235415603,
+                "inRotation": -173.65980825409005,
+                "inDistance": 12.073846850849892,
+                "outDistance": 6.666666666666674
+              }
+            },
+            {
+              "x": 7.5,
+              "y": -13.5,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 48.17983011986423,
+                "inDistance": 16.996731711975958,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "color": "#056058"
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep2",
+      "type": "polygon",
+      "x": -35.5,
+      "y": -26,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -14.5,
+              "y": 9,
+              "cubic": {
+                "rotation": -81.02737338510362,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 12.823589374447568
+              }
+            },
+            {
+              "x": 1.5,
+              "y": -9,
+              "cubic": {
+                "rotation": 28.30075576600628,
+                "inRotation": -175.60129464500443,
+                "inDistance": 8.692269873603536,
+                "outDistance": 4.921607686744473
+              }
+            },
+            {
+              "x": 14.5,
+              "y": -2,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": -151.69924423399374,
+                "inDistance": 4.921607686744473,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "gradient": {
+          "type": "linear",
+          "stops": [
+            {
+              "color": "#1f8fa1",
+              "position": 0
+            },
+            {
+              "color": "#056058",
+              "position": 1
+            }
+          ],
+          "start": {
+            "x": -14.5,
+            "y": -9
+          },
+          "end": {
+            "x": -14.5,
+            "y": 9
+          }
+        }
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep3",
+      "type": "polygon",
+      "x": 20.5,
+      "y": -3,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -108.5,
+              "y": 2,
+              "cubic": {
+                "rotation": -37.40535663140856,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 42.80186911806539
+              }
+            },
+            {
+              "x": 5.5,
+              "y": -44,
+              "cubic": {
+                "rotation": -7.125016348901803,
+                "inRotation": 173.6598082540901,
+                "inDistance": 42.258463977974614,
+                "outDistance": 42.99870799092559
+              }
+            },
+            {
+              "x": 100.5,
+              "y": -28,
+              "cubic": {
+                "rotation": 44.99999999999996,
+                "inRotation": -142.25319461272537,
+                "inDistance": 26.136394378550225,
+                "outDistance": 12.25651754056684
+              }
+            },
+            {
+              "x": 108.5,
+              "y": 4,
+              "cubic": {
+                "rotation": 99.78240703180725,
+                "inRotation": -75.25643716352934,
+                "inDistance": 13.097921802925665,
+                "outDistance": 19.61858529274954
+              }
+            },
+            {
+              "x": 54.5,
+              "y": 44,
+              "cubic": {
+                "rotation": 168.38851357611154,
+                "inRotation": -12.65255650055798,
+                "inDistance": 33.47967874530594,
+                "outDistance": 49.68344235703122
+              }
+            },
+            {
+              "x": -59.5,
+              "y": 31,
+              "cubic": {
+                "rotation": -144.86580694308435,
+                "inRotation": 34.330217195503295,
+                "inDistance": 33.09917756615043,
+                "outDistance": 22.01009869229224
+              }
+            },
+            {
+              "x": -108.5,
+              "y": 14,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": -5.194428907734786,
+                "inDistance": 14.727148022916355,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "gradient": {
+          "type": "linear",
+          "stops": [
+            {
+              "color": "#1f8fa1",
+              "position": 0
+            },
+            {
+              "color": "#056058",
+              "position": 1
+            }
+          ],
+          "start": {
+            "x": -108.5,
+            "y": -44
+          },
+          "end": {
+            "x": -108.5,
+            "y": 44
+          }
+        }
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep4",
+      "type": "polygon",
+      "x": 25,
+      "y": 20,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -96,
+              "y": -9,
+              "cubic": {
+                "rotation": 24.67686317033706,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 54.291394857339526
+              }
+            },
+            {
+              "x": 42,
+              "y": 1,
+              "cubic": {
+                "rotation": -6.709836807756949,
+                "inRotation": 159.44395478041653,
+                "inDistance": 45.56801997502682,
+                "outDistance": 22.822990358164912
+              }
+            },
+            {
+              "x": 96,
+              "y": -20,
+              "cubic": {
+                "rotation": 99.78240703180725,
+                "inRotation": 139.63546342690262,
+                "inDistance": 17.4992063312089,
+                "outDistance": 19.61858529274954
+              }
+            },
+            {
+              "x": 46,
+              "y": 20,
+              "cubic": {
+                "rotation": 167.7352262721076,
+                "inRotation": -13.73626830562259,
+                "inDistance": 30.88329285840125,
+                "outDistance": 47.07440918375928
+              }
+            },
+            {
+              "x": -63,
+              "y": 8,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 34.01934998982647,
+                "inDistance": 32.17314269870307,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "color": "#a2dadc"
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep5",
+      "type": "polygon",
+      "x": 13.5,
+      "y": -21,
+      "subpaths": [
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": -55.5,
+              "y": 11,
+              "cubic": {
+                "rotation": -28.81079374297307,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 45.65084884205331
+              }
+            },
+            {
+              "x": 55.5,
+              "y": -11,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": -167.82854179141253,
+                "inDistance": 34.781859895321546,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.6,
+      "stroke": {
+        "color": "#1f8fa1",
+        "thickness": 4,
+        "cap": "round"
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep6",
+      "type": "polygon",
+      "x": 27,
+      "y": 27.5,
+      "subpaths": [
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": -2,
+              "y": -9.5,
+              "cubic": {
+                "rotation": 113.96248897457812,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 6.565905201197399
+              }
+            },
+            {
+              "x": 2,
+              "y": 9.5,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": -128.65980825409017,
+                "inDistance": 8.537498983243797,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.45,
+      "stroke": {
+        "color": "#056058",
+        "thickness": 1.5
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep7",
+      "type": "polygon",
+      "x": 38.5,
+      "y": 27.5,
+      "subpaths": [
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": -0.5,
+              "y": -9.5,
+              "cubic": {
+                "rotation": 113.96248897457812,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 6.565905201197399
+              }
+            },
+            {
+              "x": 0.5,
+              "y": 9.5,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": -116.5650511770781,
+                "inDistance": 7.453559924999294,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.45,
+      "stroke": {
+        "color": "#056058",
+        "thickness": 1.5
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep8",
+      "type": "polygon",
+      "x": 50,
+      "y": 27.5,
+      "subpaths": [
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": 1,
+              "y": -9.5,
+              "cubic": {
+                "rotation": 113.96248897457812,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 6.565905201197399
+              }
+            },
+            {
+              "x": -1,
+              "y": 9.5,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": -101.3099324740203,
+                "inDistance": 6.798692684790372,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.45,
+      "stroke": {
+        "color": "#056058",
+        "thickness": 1.5
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep9",
+      "type": "polygon",
+      "x": 61.5,
+      "y": 27.5,
+      "subpaths": [
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": 2.5,
+              "y": -9.5,
+              "cubic": {
+                "rotation": 113.96248897457812,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 6.565905201197399
+              }
+            },
+            {
+              "x": -2.5,
+              "y": 9.5,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": -84.28940686250044,
+                "inDistance": 6.69991708074725,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.45,
+      "stroke": {
+        "color": "#056058",
+        "thickness": 1.5
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep10",
+      "type": "polygon",
+      "x": 73,
+      "y": 27.5,
+      "subpaths": [
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": 4,
+              "y": -9.5,
+              "cubic": {
+                "rotation": 113.96248897457812,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 6.565905201197399
+              }
+            },
+            {
+              "x": -4,
+              "y": 9.5,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": -68.19859051364824,
+                "inDistance": 7.180219742845994,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.45,
+      "stroke": {
+        "color": "#056058",
+        "thickness": 1.5
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep11",
+      "type": "polygon",
+      "x": -35,
+      "y": -18,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -3,
+              "y": 0,
+              "cubic": {
+                "rotation": 90,
+                "inRotation": -90,
+                "inDistance": 1.1045694996615936,
+                "outDistance": 1.1045694996615936
+              }
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 180,
+                "inDistance": 1.6568542494923832,
+                "outDistance": 1.6568542494923832
+              }
+            },
+            {
+              "x": 3,
+              "y": 0,
+              "cubic": {
+                "rotation": -90,
+                "inRotation": 90,
+                "inDistance": 1.1045694996615936,
+                "outDistance": 1.1045694996615936
+              }
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "cubic": {
+                "rotation": 180,
+                "inRotation": 0,
+                "inDistance": 1.6568542494923832,
+                "outDistance": 1.6568542494923832
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.3,
+      "fill": {
+        "color": "#1f8fa1"
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep12",
+      "type": "polygon",
+      "x": -4,
+      "y": -1,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -4,
+              "y": 0,
+              "cubic": {
+                "rotation": 90,
+                "inRotation": -90,
+                "inDistance": 1.6568542494923832,
+                "outDistance": 1.6568542494923832
+              }
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 180,
+                "inDistance": 2.209138999323187,
+                "outDistance": 2.209138999323187
+              }
+            },
+            {
+              "x": 4,
+              "y": 0,
+              "cubic": {
+                "rotation": -90,
+                "inRotation": 90,
+                "inDistance": 1.6568542494923832,
+                "outDistance": 1.6568542494923832
+              }
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "cubic": {
+                "rotation": 180,
+                "inRotation": 0,
+                "inDistance": 2.209138999323187,
+                "outDistance": 2.209138999323187
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.3,
+      "fill": {
+        "color": "#1f8fa1"
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep13",
+      "type": "polygon",
+      "x": 27,
+      "y": 16,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -5,
+              "y": 0,
+              "cubic": {
+                "rotation": 90,
+                "inRotation": -90,
+                "inDistance": 1.1045694996615936,
+                "outDistance": 1.1045694996615936
+              }
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 180,
+                "inDistance": 2.761423749153977,
+                "outDistance": 2.761423749153977
+              }
+            },
+            {
+              "x": 5,
+              "y": 0,
+              "cubic": {
+                "rotation": -90,
+                "inRotation": 90,
+                "inDistance": 1.1045694996615936,
+                "outDistance": 1.1045694996615936
+              }
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "cubic": {
+                "rotation": 180,
+                "inRotation": 0,
+                "inDistance": 2.761423749153977,
+                "outDistance": 2.761423749153977
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.3,
+      "fill": {
+        "color": "#1f8fa1"
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep14",
+      "type": "polygon",
+      "x": 58,
+      "y": -2,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -6,
+              "y": 0,
+              "cubic": {
+                "rotation": 90,
+                "inRotation": -90,
+                "inDistance": 1.6568542494923832,
+                "outDistance": 1.6568542494923832
+              }
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 180,
+                "inDistance": 3.3137084989847665,
+                "outDistance": 3.3137084989847665
+              }
+            },
+            {
+              "x": 6,
+              "y": 0,
+              "cubic": {
+                "rotation": -90,
+                "inRotation": 90,
+                "inDistance": 1.6568542494923832,
+                "outDistance": 1.6568542494923832
+              }
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "cubic": {
+                "rotation": 180,
+                "inRotation": 0,
+                "inDistance": 3.3137084989847665,
+                "outDistance": 3.3137084989847665
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.3,
+      "fill": {
+        "color": "#1f8fa1"
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep15",
+      "type": "polygon",
+      "x": -32,
+      "y": 15,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -3,
+              "y": 0,
+              "cubic": {
+                "rotation": 90,
+                "inRotation": -90,
+                "inDistance": 1.1045694996615936,
+                "outDistance": 1.1045694996615936
+              }
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 180,
+                "inDistance": 1.6568542494923832,
+                "outDistance": 1.656854249492369
+              }
+            },
+            {
+              "x": 3,
+              "y": 0,
+              "cubic": {
+                "rotation": -90,
+                "inRotation": 90,
+                "inDistance": 1.1045694996615936,
+                "outDistance": 1.1045694996615936
+              }
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "cubic": {
+                "rotation": 180,
+                "inRotation": 0,
+                "inDistance": 1.656854249492369,
+                "outDistance": 1.6568542494923832
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.3,
+      "fill": {
+        "color": "#1f8fa1"
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep16",
+      "type": "polygon",
+      "x": -1,
+      "y": -3,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -4,
+              "y": 0,
+              "cubic": {
+                "rotation": 90,
+                "inRotation": -90,
+                "inDistance": 1.6568542494923832,
+                "outDistance": 1.6568542494923832
+              }
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 180,
+                "inDistance": 2.209138999323187,
+                "outDistance": 2.209138999323187
+              }
+            },
+            {
+              "x": 4,
+              "y": 0,
+              "cubic": {
+                "rotation": -90,
+                "inRotation": 90,
+                "inDistance": 1.6568542494923832,
+                "outDistance": 1.6568542494923832
+              }
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "cubic": {
+                "rotation": 180,
+                "inRotation": 0,
+                "inDistance": 2.209138999323187,
+                "outDistance": 2.209138999323187
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.3,
+      "fill": {
+        "color": "#1f8fa1"
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep17",
+      "type": "polygon",
+      "x": 30,
+      "y": 14,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -5,
+              "y": 0,
+              "cubic": {
+                "rotation": 90,
+                "inRotation": -90,
+                "inDistance": 1.1045694996615936,
+                "outDistance": 1.1045694996615936
+              }
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 180,
+                "inDistance": 2.761423749153977,
+                "outDistance": 2.761423749153977
+              }
+            },
+            {
+              "x": 5,
+              "y": 0,
+              "cubic": {
+                "rotation": -90,
+                "inRotation": 90,
+                "inDistance": 1.1045694996615936,
+                "outDistance": 1.1045694996615936
+              }
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "cubic": {
+                "rotation": 180,
+                "inRotation": 0,
+                "inDistance": 2.761423749153977,
+                "outDistance": 2.761423749153977
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.3,
+      "fill": {
+        "color": "#1f8fa1"
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep18",
+      "type": "polygon",
+      "x": 61,
+      "y": -4,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -6,
+              "y": 0,
+              "cubic": {
+                "rotation": 90,
+                "inRotation": -90,
+                "inDistance": 1.6568542494923832,
+                "outDistance": 1.6568542494923832
+              }
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 180,
+                "inDistance": 3.3137084989847665,
+                "outDistance": 3.3137084989847665
+              }
+            },
+            {
+              "x": 6,
+              "y": 0,
+              "cubic": {
+                "rotation": -90,
+                "inRotation": 90,
+                "inDistance": 1.6568542494923832,
+                "outDistance": 1.6568542494923832
+              }
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "cubic": {
+                "rotation": 180,
+                "inRotation": 0,
+                "inDistance": 3.3137084989847665,
+                "outDistance": 3.3137084989847665
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.3,
+      "fill": {
+        "color": "#1f8fa1"
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep19",
+      "type": "polygon",
+      "x": -29,
+      "y": 13,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -3,
+              "y": 0,
+              "cubic": {
+                "rotation": 90,
+                "inRotation": -90,
+                "inDistance": 1.1045694996615936,
+                "outDistance": 1.1045694996615936
+              }
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 180,
+                "inDistance": 1.656854249492369,
+                "outDistance": 1.656854249492369
+              }
+            },
+            {
+              "x": 3,
+              "y": 0,
+              "cubic": {
+                "rotation": -90,
+                "inRotation": 90,
+                "inDistance": 1.1045694996615936,
+                "outDistance": 1.1045694996615936
+              }
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "cubic": {
+                "rotation": 180,
+                "inRotation": 0,
+                "inDistance": 1.656854249492369,
+                "outDistance": 1.656854249492369
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.3,
+      "fill": {
+        "color": "#1f8fa1"
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep20",
+      "type": "polygon",
+      "x": 2,
+      "y": -5,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -4,
+              "y": 0,
+              "cubic": {
+                "rotation": 90,
+                "inRotation": -90,
+                "inDistance": 1.6568542494923832,
+                "outDistance": 1.6568542494923832
+              }
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 180,
+                "inDistance": 2.209138999323187,
+                "outDistance": 2.209138999323187
+              }
+            },
+            {
+              "x": 4,
+              "y": 0,
+              "cubic": {
+                "rotation": -90,
+                "inRotation": 90,
+                "inDistance": 1.6568542494923832,
+                "outDistance": 1.6568542494923832
+              }
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "cubic": {
+                "rotation": 180,
+                "inRotation": 0,
+                "inDistance": 2.209138999323187,
+                "outDistance": 2.209138999323187
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.3,
+      "fill": {
+        "color": "#1f8fa1"
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep21",
+      "type": "polygon",
+      "x": 33,
+      "y": 12,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -5,
+              "y": 0,
+              "cubic": {
+                "rotation": 90,
+                "inRotation": -90,
+                "inDistance": 1.1045694996615936,
+                "outDistance": 1.1045694996615936
+              }
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 180,
+                "inDistance": 2.761423749153977,
+                "outDistance": 2.761423749153977
+              }
+            },
+            {
+              "x": 5,
+              "y": 0,
+              "cubic": {
+                "rotation": -90,
+                "inRotation": 90,
+                "inDistance": 1.1045694996615936,
+                "outDistance": 1.1045694996615936
+              }
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "cubic": {
+                "rotation": 180,
+                "inRotation": 0,
+                "inDistance": 2.761423749153977,
+                "outDistance": 2.761423749153977
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.3,
+      "fill": {
+        "color": "#1f8fa1"
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep22",
+      "type": "polygon",
+      "x": 64,
+      "y": -6,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -6,
+              "y": 0,
+              "cubic": {
+                "rotation": 90,
+                "inRotation": -90,
+                "inDistance": 1.6568542494923832,
+                "outDistance": 1.6568542494923832
+              }
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 180,
+                "inDistance": 3.3137084989847665,
+                "outDistance": 3.3137084989847665
+              }
+            },
+            {
+              "x": 6,
+              "y": 0,
+              "cubic": {
+                "rotation": -90,
+                "inRotation": 90,
+                "inDistance": 1.6568542494923832,
+                "outDistance": 1.6568542494923832
+              }
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "cubic": {
+                "rotation": 180,
+                "inRotation": 0,
+                "inDistance": 3.3137084989847665,
+                "outDistance": 3.3137084989847665
+              }
+            }
+          ]
+        }
+      ],
+      "opacity": 0.3,
+      "fill": {
+        "color": "#1f8fa1"
+      },
+      "parent": "body"
+    },
+    {
+      "id": "bluep23",
+      "type": "polygon",
+      "x": -4.5,
+      "y": 14,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": 28.5,
+              "y": -10,
+              "cubic": {
+                "rotation": 133.72696997994325,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 21.2184406171194
+              }
+            },
+            {
+              "x": -28.5,
+              "y": 16,
+              "cubic": {
+                "rotation": -72.47443162627711,
+                "inRotation": -4.8990924537877625,
+                "inDistance": 23.41889076033374,
+                "outDistance": 13.283239230114175
+              }
+            },
+            {
+              "x": -2.5,
+              "y": -16,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 146.97613244420342,
+                "inDistance": 15.902480589168754,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "gradient": {
+          "type": "linear",
+          "stops": [
+            {
+              "color": "#1f8fa1",
+              "position": 0
+            },
+            {
+              "color": "#056058",
+              "position": 1
+            }
+          ],
+          "start": {
+            "x": -28.5,
+            "y": -16
+          },
+          "end": {
+            "x": 28.5,
+            "y": 16
+          }
+        }
+      },
+      "parent": "flipper"
+    },
+    {
+      "id": "bluep24",
+      "type": "polygon",
+      "x": 0,
+      "y": 0,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -10,
+              "y": 0,
+              "cubic": {
+                "rotation": 90,
+                "inRotation": -90,
+                "inDistance": 6.075132248138729,
+                "outDistance": 6.075132248138729
+              }
+            },
+            {
+              "x": 0,
+              "y": 11,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 180,
+                "inDistance": 5.522847498307954,
+                "outDistance": 5.522847498307954
+              }
+            },
+            {
+              "x": 10,
+              "y": 0,
+              "cubic": {
+                "rotation": -90,
+                "inRotation": 90,
+                "inDistance": 6.075132248138729,
+                "outDistance": 6.075132248138729
+              }
+            },
+            {
+              "x": 0,
+              "y": -11,
+              "cubic": {
+                "rotation": 180,
+                "inRotation": 0,
+                "inDistance": 5.522847498307954,
+                "outDistance": 5.522847498307954
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "color": "#ffffff"
+      },
+      "parent": "eye"
+    },
+    {
+      "id": "bluep25",
+      "type": "polygon",
+      "x": 3,
+      "y": 0,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -5,
+              "y": 0,
+              "cubic": {
+                "rotation": 90,
+                "inRotation": -90,
+                "inDistance": 3.5898508739001613,
+                "outDistance": 3.5898508739001613
+              }
+            },
+            {
+              "x": 0,
+              "y": 6.5,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 180,
+                "inDistance": 2.7614237491539484,
+                "outDistance": 2.7614237491539484
+              }
+            },
+            {
+              "x": 5,
+              "y": 0,
+              "cubic": {
+                "rotation": -90,
+                "inRotation": 90,
+                "inDistance": 3.5898508739001613,
+                "outDistance": 3.5898508739001613
+              }
+            },
+            {
+              "x": 0,
+              "y": -6.5,
+              "cubic": {
+                "rotation": 180,
+                "inRotation": 0,
+                "inDistance": 2.7614237491539484,
+                "outDistance": 2.7614237491539484
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "color": "#192424"
+      },
+      "parent": "eye"
+    },
+    {
+      "id": "bluep26",
+      "type": "polygon",
+      "x": 4,
+      "y": -3,
+      "subpaths": [
+        {
+          "closed": true,
+          "points": [
+            {
+              "x": -2,
+              "y": 0,
+              "cubic": {
+                "rotation": 90,
+                "inRotation": -90,
+                "inDistance": 1.1045694996615936,
+                "outDistance": 1.1045694996615936
+              }
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 180,
+                "inDistance": 1.1045694996615794,
+                "outDistance": 1.1045694996615794
+              }
+            },
+            {
+              "x": 2,
+              "y": 0,
+              "cubic": {
+                "rotation": -90,
+                "inRotation": 90,
+                "inDistance": 1.1045694996615936,
+                "outDistance": 1.1045694996615936
+              }
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "cubic": {
+                "rotation": 180,
+                "inRotation": 0,
+                "inDistance": 1.1045694996615794,
+                "outDistance": 1.1045694996615794
+              }
+            }
+          ]
+        }
+      ],
+      "fill": {
+        "color": "#ffffff"
+      },
+      "parent": "eye"
+    },
+    {
+      "id": "bluep27",
+      "type": "polygon",
+      "x": 119.5,
+      "y": -0.5,
+      "subpaths": [
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": -10.5,
+              "y": 2.5,
+              "cubic": {
+                "rotation": 28.300755766006358,
+                "inRotation": 0,
+                "inDistance": 0,
+                "outDistance": 9.843215373488954
+              }
+            },
+            {
+              "x": 10.5,
+              "y": -2.5,
+              "cubic": {
+                "rotation": 0,
+                "inRotation": 123.69006752597971,
+                "inDistance": 9.614803401237294,
+                "outDistance": 0
+              }
+            }
+          ]
+        }
+      ],
+      "stroke": {
+        "color": "#192424",
+        "thickness": 2.5,
+        "cap": "round"
+      },
+      "parent": "body"
+    }
+  ],
+  "animations": [
+    {
+      "name": "swim",
+      "duration": 144,
+      "fps": 60,
+      "loop": "loop",
+      "presets": [
+        {
+          "preset": "float-idle",
+          "target": "body",
+          "intensity": 0.25
+        }
+      ],
+      "tracks": [
+        {
+          "target": "tail",
+          "property": "rotation",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 0,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 36,
+              "value": -17,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 72,
+              "value": 0,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 108,
+              "value": 17,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 144,
+              "value": 0,
+              "easing": "ease-in-out"
+            }
+          ]
+        },
+        {
+          "target": "flipper",
+          "property": "rotation",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 8,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 36,
+              "value": -9,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 72,
+              "value": 8,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 108,
+              "value": 20,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 144,
+              "value": 8,
+              "easing": "ease-in-out"
+            }
+          ]
+        },
+        {
+          "target": "eye",
+          "property": "scaleY",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 109,
+              "value": 1,
+              "easing": "hold"
+            },
+            {
+              "frame": 114,
+              "value": 0.08,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 120,
+              "value": 1,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 144,
+              "value": 1,
+              "easing": "hold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tail",
+      "duration": 36,
+      "fps": 60,
+      "loop": "oneshot",
+      "tracks": [
+        {
+          "target": "tail",
+          "property": "rotation",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 0,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 9,
+              "value": 25,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 18,
+              "value": -48,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 27,
+              "value": 13,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 36,
+              "value": 0,
+              "easing": "ease-in-out"
+            }
+          ]
+        },
+        {
+          "target": "body",
+          "property": "rotation",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 0,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 9,
+              "value": -7,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 18,
+              "value": 9,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 27,
+              "value": -3,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 36,
+              "value": 0,
+              "easing": "ease-in-out"
+            }
+          ]
+        },
+        {
+          "target": "flipper",
+          "property": "rotation",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 8,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 9,
+              "value": 22,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 18,
+              "value": -20,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 27,
+              "value": 13,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 36,
+              "value": 8,
+              "easing": "ease-in-out"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ram",
+      "duration": 36,
+      "fps": 60,
+      "loop": "oneshot",
+      "tracks": [
+        {
+          "target": "tail",
+          "property": "rotation",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 0,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 9,
+              "value": 22,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 18,
+              "value": -28,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 27,
+              "value": 12,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 36,
+              "value": 0,
+              "easing": "ease-in-out"
+            }
+          ]
+        },
+        {
+          "target": "flipper",
+          "property": "rotation",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 8,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 9,
+              "value": -24,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 18,
+              "value": -30,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 27,
+              "value": 4,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 36,
+              "value": 8,
+              "easing": "ease-in-out"
+            }
+          ]
+        },
+        {
+          "target": "body",
+          "property": "scaleX",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 1,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 9,
+              "value": 0.93,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 18,
+              "value": 1.08,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 27,
+              "value": 1.03,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 36,
+              "value": 1,
+              "easing": "ease-in-out"
+            }
+          ]
+        },
+        {
+          "target": "body",
+          "property": "scaleY",
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 1,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 9,
+              "value": 1.07,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 18,
+              "value": 0.93,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 27,
+              "value": 0.98,
+              "easing": "ease-in-out"
+            },
+            {
+              "frame": 36,
+              "value": 1,
+              "easing": "ease-in-out"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
