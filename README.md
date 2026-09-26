@@ -31,3 +31,14 @@ The whales have species-specific silhouettes, markings, shaded bodies, articulat
 `npm test` checks breathing, whale combat strengths and level definitions. With the dev server running, `node scripts/smoke.mjs` checks keyboard actions, selection, help and phone layout in Chrome. `node scripts/playthrough.mjs` plays through all three stages using normal controls and a accelerated browser clock.
 
 `node scripts/tail-breach-test.mjs` verifies the complete tail attack, including no immediate damage, full airborne clearance, contact damage, and underwater landing.
+
+## Publish to Cloudflare
+
+The live game is served at https://whales.garethwright.com using Workers Static Assets.
+
+```sh
+npx wrangler login
+npm run deploy
+```
+
+`wrangler.jsonc` defines the account, static build directory, and custom domain. The deployment uploads the game and runtime art; editable Rive sources and review images stay in the repository. A GitHub push does not automatically deploy; run `npm run deploy` after changes.

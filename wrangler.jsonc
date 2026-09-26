@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "whalesnsails",
+  "account_id": "a47487a3d1b08e5897f8ae84f0a5e46a",
+  "compatibility_date": "2026-09-26",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "none"
+  },
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "whales.garethwright.com", "custom_domain": true }
+  ]
+}

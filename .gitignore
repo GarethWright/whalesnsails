@@ -3,3 +3,6 @@ dist/
 .DS_Store
 tests/*.png
 scripts/asset-build.log
+.wrangler/
+.dev.vars*
+.env*
